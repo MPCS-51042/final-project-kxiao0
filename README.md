@@ -1,13 +1,10 @@
-# Proposals
+# Final Project Proposal
 **My ideas for my final project are...**
 
-1. A generator that helps identify potential comps in League of legends - TeamFight Tactics. The project will (1) need web scraping (maybe using Beautiful Soup?) on a few TFT data pages (e.g. https://www.leagueofgraphs.com/tft/comps and https://www.leagueofgraphs.com/tft/items) to get best comps and suitable items for those champions; (2) take inputs of base items from user to give recommendations on (a) potential comps and its relevant data in order of relevance level and win rate (b) recommended combined items for champions (c) additional base items and champions that need to be obtained
+1. An api that helps identify potential comps in League of legends - TeamFight Tactics. The project will (1) need web scraping (maybe using Beautiful Soup?) on a few TFT data pages (e.g. https://www.leagueofgraphs.com/tft/comps and https://www.leagueofgraphs.com/tft/items) to get best comps and suitable items for those champions; (2) take inputs of base items from user to give recommendations on (a) potential comps and its relevant data in order of relevance level and win rate (b) recommended combined items for champions (c) additional base items and champions that need to be obtained
 
 
-~~2. /Idea abandoned/ An offline version of Booth book with some more functions (e.g. combining MPCS offering into consideration). The project should (a) take inputs from a few excel file and web pages (e.g. program of study audit, course seat limits, bid history) (b) show how many courses need to be taken for each label (e.g. 2 selectives, 3 cores, 1 behavior science concentrations) (c)  user input for filter purpose: concentration they want to achieve, time schedule preferred (e.g. no evening lessons), (d) generate potential course list with suggested bidding points and red flags (e.g. very high bidding points needed, course evaluation scores very low, (e) add final schedule to Google calendar~~
-
-
-   **To Do (Suggested by Chelsea)**
+**To Do (Suggested by Chelsea)**
 
 1. Proof of concept on the integrations with LoL TeamFight data pages and any other APIs
 2. Figure out your UI: both the input (how will a user trigger recommendations) and the output (list of champions and items)
@@ -22,3 +19,4 @@
 4. By end of week 7 (Feb 26): Fine-tuning recommendation logic, test with extreme cases / updates in data etc, UI Framework implementation starts
 5. By end of week 8 (Mar 5): Adjust logic and UI for user-friendly purpose (e.g. add descriptions)
 6. Final touch: Finalize UI, code walk-through video recording
+

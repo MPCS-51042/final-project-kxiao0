@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Customized recommendation{% endblock %}
+{% block content %}
+<div class="row mt-4">
+
+    <div class="card">
+  <div class="card-body">
+     <h5 class="card-title mb-4">Instructions before you start</h5>
+      <p> >> You can select up to 6 items for recommendation (although there are 12 items for a completed team, but if you haven't decided which team to play when you get your 7th item, highly likely you are going to lose...</p>
+      <p> >> If you select nothing, we will provide you with you still the standard recommendation.</p>
+      <p> >> Recommendation is based mainly on item matching rate (if you don't have good items at hand, even the best team will lose.), but if there's no difference in matching rate we will prioritize teams with higher tier. </p>
+        <p> Hit get started to select your items! </p>
+        </div>
+</div>
+<div class="row mt-4">
+<a class="btn btn-primary" href='custom/select_items' role="button">Get Started</a>
+</div>
+{% endblock %}

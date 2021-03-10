@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}View recommendations{% endblock %}
+{% block content %}
+<a class="btn btn-primary my-4" href="/" role="button">Back to home page</a>
+<a class="btn btn-primary my-4" href="/custom/select_items" role="button">Reset selections</a>
+<h3>Recommended teams</h3>
+<div class="shadow-sm p-3 mb-5 bg-body rounded">
+<div class="row mt-4">
+{{tables | safe}}
+</div>
+  </div>
+<div class="row mt-4">
+    <div class="card">
+  <div class="card-body">
+    <h4 class="card-subtitle mb-4 text-muted">How to use</h4>
+    <p style="background: lightgrey"><strong>1. Numbers</strong></p>
+   <p><strong>x/y</strong>:  x = # of base items you have; y = # of base items you need</p>
+ <p style="background: lightgrey"><strong>2. Color coding</strong></p>
+   <p> <a style="background: lightpink">0/2 </a>: meaning you still need more of this type of base item</p>
+  <p> <a style="background: lightblue">1/1 </a>: meaning that for this base item, you got what's needed</p>
+  <p> <a style="background: moccasin">1/1 </a>: meaning that for this base item, you got MORE than what's needed</p>
+    <p style="background: lightgrey"><strong>3. Abbreviation</strong></p>
+    <ul class="list-unstyled">
+       <li><strong>BFS</strong>: B.F. Sword</li>
+      <li><strong>CV</strong>: Chain Vest</li>
+      <li><strong>GB</strong>: Giant's Belt</li>
+      <li><strong>NLR</strong>: Needlessly Large Rod</li>
+      <li><strong>NC</strong>: Negatron Cloak</li>
+      <li><strong>RB</strong>: Recurve Bow</li>
+      <li><strong>SG</strong>: Sparring Gloves</li>
+      <li><strong>S</strong>: Spatula</li>
+      <li><strong>TG</strong>: Tear of the Goddess</li>
+ </ul>
+        <p style="background: lightgrey"><strong>4. Ramp up</strong></p>
+  <ul class="list-unstyled">
+       <li><strong>Slow Roll</strong>: 3-star units at level 5 by rolling your excess gold every round.</li>
+      <li><strong>Standard</strong>: Flexible strategy focused around a healthy economy while still keeping up in levels. General rules are level 6 by 3-2, level 7 by 4-1, and level 8 by 5-1</li>
+        <li><strong>Fast 8</strong>: Level up to 8 aggressively, usually by round 4-3, to find 4 and 5-cost champions and unlock powerful synergies before other players</li>
+  </ul>
+  </div>
+
+</div>
+</div>
+{% endblock %}

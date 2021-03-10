@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}Team {{team_id}}{% endblock %}
+{% block content %}
+<a class="btn btn-primary my-4" href="/" role="button">Back to home page</a>
+
+<div class="shadow-sm p-3 mb-5 bg-body rounded">
+<h3>Team {{team_id}}: {{table_name}}</h3>
+    <p></p>
+    <div class="row mb-4">
+
+{{table | safe}}
+</div>
+</div>
+
+<div class="row mt-6">
+<p>Check out other teams:</p>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-left">
+      {% for i in range(team_n) %}
+      <li class="page-item"><a class="page-link" href="{{ '/team/%s'%i }}">{{i}}</a></li>
+      {% endfor %}
+  </ul>
+</nav>
+</div>
+{% endblock %}
