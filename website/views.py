@@ -81,8 +81,4 @@ def config():
 def load():
     df_items, df_recipe, df_char, df_team = scrap_all()
     db_to_csv(df_items, df_recipe, df_char, df_team)
-    with open("website/data/patch_update_history.csv", "r") as f1:
-        current_patch = f1.readlines()[-1].strip('\n')
-    with open("website/data/patch_check_history.csv", "r") as f1:
-        latest_patch = f1.readlines()[-1].strip('\n')
     return redirect(url_for('views.config'))
