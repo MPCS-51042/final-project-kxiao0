@@ -1,3 +1,10 @@
+# How to Use
+
+1. Clone the entire repo to a local folder
+2. Run main.py in pipenv (with pipenv install all requirements specified in pipfile.lock)
+3. Go to the link provided in the session
+4. Follow instructions on the page (or follow the Youtube video: https://youtu.be/wLzCPIfSowY)
+
 # Final Project Proposal
 **My ideas for my final project are...**
 

@@ -2,7 +2,7 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
-
+# breakdown team-characters-items into small dataframe by team id
 def build_team_view(id, df_team, df_char):
     idn = int(id)
 
@@ -18,11 +18,11 @@ def build_team_view(id, df_team, df_char):
     html = df.rename(columns = {"char_name": "Character","item1": "Combined item 1","item2": "Combined item 2", "item3": "Combined item 3"}).style.applymap(blank).hide_columns(['team_id']).hide_index().render()
     return name, html
 
-
+# get # of possible teams combination
 def team_len(df_team):
     return df_team.shape[0]
 
-
+# get what's latest patch on tft website
 def get_patch():
     url = 'https://tftactics.gg/tierlist/team-comps'
 
@@ -40,7 +40,7 @@ def get_patch():
     driver.quit()
     return patch
 
-
+# prettify dataframe and render into html
 def pretty_html(df):
     new_df = df.rename(columns={"team_id": "Team ID", "team_name": "Team Name", "team_tier": "Tier", "team_ramp": "Ramp up"})
 

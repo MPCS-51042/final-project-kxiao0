@@ -4,6 +4,8 @@ import pandas as pd
 
 
 def scrap_all():
+    # scrap page 1 - team, characters, combined items
+
     url = 'https://tftactics.gg/tierlist/team-comps'
 
     driver = webdriver.Chrome('.\chromedriver.exe')
@@ -70,7 +72,7 @@ def scrap_all():
     patch = soup.find(attrs={"class": "update-patch"}).get_text()
 
 
-    ##### section 2: item list web scrapping #######
+    # scrap page 2 - item list
 
     url2 = 'https://tftactics.gg/item-builder'
 
@@ -100,7 +102,7 @@ def scrap_all():
 
     df_items = pd.DataFrame(all_items, columns=["item_name", "item_type"])
 
-    ###### section 3: item recipe web scrapping #######
+    # scrap page 3 - base item to combined item recipe
 
     url3 = 'https://tftactics.gg/db/items'
 
@@ -126,7 +128,11 @@ def scrap_all():
     df_recipe = pd.DataFrame.from_dict(recipe_list, orient='index', columns=['recipe_1', 'recipe_2']).rename_axis(
         'item_name').reset_index()
 
+    # quit driver
+
     driver.quit()
+
+    # update patch update history
 
     f = open("website/data/patch_update_history.csv", "a")
     f.write(patch + "\n")
@@ -137,6 +143,8 @@ def scrap_all():
 
 def db_to_csv(df_items, df_recipe, df_char, df_team):
     base_item_lst = df_items.loc[df_items['item_type'] == "base"]
+
+    # create a few columns (each column represents a base item) in each team in df_teams, and value equals number of base items needed in this team
 
     def recipe_usage_count(r1, r2, i):
         return int(r1 == i) + int(r2 == i)
@@ -160,6 +168,9 @@ def db_to_csv(df_items, df_recipe, df_char, df_team):
         df_recipe[i] = df_recipe.apply(lambda row: recipe_usage_count(row["recipe_1"], row["recipe_2"], i), axis=1)
         df_char[i] = df_char.apply(lambda row: char_usage_count(row["item1"], row["item2"], row["item3"], i), axis=1)
         df_team[i] = df_team.apply(lambda row: team_usage_count(row["team_id"], i), axis=1)
+
+
+    # export to csv file
 
     df_team.to_csv("website\\data\\team_comps")
     df_char.to_csv("website\\data\\team_chars_items")
