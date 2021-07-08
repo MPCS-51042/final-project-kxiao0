@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="row mt-4">
+  <div class="col x-6">
+    <div class="card">
+  <div class="card-body">
+     <h5 class="card-title mb-4">Welcome!</h5>
+      <p> This tool is designed to help TeamFight Tactics (of League of Legends) players to efficiently select which team they want to form, based on base items they have got in the first few rounds in the game.</p>
+      <p><strong> >> If you want a longer guide on how this game works</strong>, please click the link below to access beginner's guide.</p>
+      <a href="https://lol.garena.com/news/teamfight-tactics-beginners-guide" class="link-primary">Link to beginner's guide (by Garena)</a>
+      <p></p>
+      <p><strong> >> If you understand how the game works</strong>, here's what we offered: </p>
+      <p>You can either view the standard recommendation, which gives you a list of high win rate teams in current patch; or if you have already started a game and know which items you have, you can go to customized recommendation, where we will recommend you the best choices based on items you already have.</p>
+        <p> </p>
+         <p> All data used in recommendations credited to <a href=https://tftactics.gg/ class="link-primary">tft tactics</a>. You can also get answers there if you are not familiar with item combination recipe or other rules in game. </p>
+  </div>
+        </div>
+</div>
+</div>
+<div class="row mt-2">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Standard recommendation</h5>
+        <p class="card-text">View best team comps at current patch.</p>
+        <a href="/standard" class="btn btn-primary">Check it out</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Customized recommendation</h5>
+        <p class="card-text">Select items, and see what's the best strategy based on what you have.</p>
+        <a href="/custom" class="btn btn-primary">Check it out</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %} Config {% endblock %}
+{% block content %}
+
+
+
+<div class="shadow-sm p-3 my-5 bg-body rounded">
+    {% if current_patch != latest_patch %}
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>New patch available!</strong> You can <a href="/config/load" class="alert-link">reload data</a> to get latest recommendation.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+{% endif %}
+    <p>Current Patch: {{current_patch}}</p>
+    <p>Latest Patch (since last checked): {{latest_patch}}
+    {% if current_patch != latest_patch %}
+        <span class="badge rounded-pill bg-success">New release</span>
+    {% endif %}</p>
+
+    <form method = "POST">
+    <p></p>
+      <button type="submit" class="btn btn-primary">Run patch update inspection</button>
+</form>
+</div>
+{% endblock %}

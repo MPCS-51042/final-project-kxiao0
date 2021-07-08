@@ -1,0 +1,11 @@
+Rubric
+Functionality: 40/40
+Style: 30/30
+Scope/Logic: 10/10
+Scope was not coveredin class:10/10
+Presentation: 8/10 It's really hard to hear your video since there was a lot of echo
+
++5 unit tests
+
+Total: 103/100
+Notes: Excellent work! You have good division of tasks between the different parts of your app, and the code looks well-formatted and legible. The UI does a great job of displaying the information.

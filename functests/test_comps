@@ -1,0 +1,21 @@
+,team_id,team_name,team_tier,team_ramp,B.F. Sword,Chain Vest,Giant's Belt,Needlessly Large Rod,Negatron Cloak,Recurve Bow,Sparring Gloves,Spatula,Tear of the Goddess
+0,0,Chosen Duelists,S,Slow Roll,1,2,1,1,2,2,2,0,1
+1,1,Chosen Brawlers,S,Standard,0,1,1,3,2,2,2,0,1
+2,2,Chosen Cultists,S,Standard,1,3,1,3,2,2,0,0,0
+3,3,Chosen Executioners,S,Standard,2,0,2,1,1,3,3,0,0
+4,4,Chosen Keepers,S,Standard,2,2,1,2,1,0,2,0,2
+5,5,Dragonsoul Slayers,S,Standard,4,1,1,1,0,1,3,0,1
+6,6,Vanguard Slayers,S,Standard,4,2,1,0,0,1,3,0,1
+7,7,Chosen Mages,A,Standard,1,2,1,3,2,0,1,0,2
+8,8,Chosen Sharpshooters,A,Fast 8,2,0,3,1,1,3,2,0,0
+9,9,Chosen Veigar,A,Slow Roll,2,3,1,3,0,0,1,0,2
+10,10,Chosen Warlords,A,Standard,4,1,0,1,3,0,1,0,2
+11,11,Elderwood Mages,A,Standard,2,2,1,2,0,0,2,0,3
+12,12,Enlightened Adepts,A,Standard,3,1,1,3,0,1,1,0,2
+13,13,Ninja Assassins,A,Slow Roll,4,1,0,0,0,3,2,0,2
+14,14,Ninja Slayers,A,Slow Roll,2,0,3,1,2,3,1,0,0
+15,15,Warlord Sharpshooters,A,Slow Roll,3,1,1,1,0,2,3,0,1
+16,16,Divine Syphoners,B,Slow Roll,0,2,1,3,0,5,1,0,0
+17,17,Dragonsoul Mages,B,Standard,1,0,0,2,2,3,2,0,2
+18,18,Spirit Assassins,B,Slow Roll,3,1,0,1,0,3,2,0,2
+19,19,Vanguard Mystics,B,Standard,1,1,1,1,2,0,2,0,4

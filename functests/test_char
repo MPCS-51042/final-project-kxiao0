@@ -1,0 +1,160 @@
+,team_id,char_name,item1,item2,item3,B.F. Sword,Chain Vest,Giant's Belt,Needlessly Large Rod,Negatron Cloak,Recurve Bow,Sparring Gloves,Spatula,Tear of the Goddess
+0,0,Fiora,na,na,na,0,0,0,0,0,0,0,0,0
+1,0,Yasuo,Guardian Angel,Hand of Justice,Quicksilver,1,1,0,0,1,0,2,0,1
+2,0,Jax,Sunfire Cape,na,na,0,1,1,0,0,0,0,0,0
+3,0,Kalista,Guinsoo's Rageblade,Runaan's Hurricane,na,0,0,0,1,1,2,0,0,0
+4,0,Janna,na,na,na,0,0,0,0,0,0,0,0,0
+5,0,Shen,na,na,na,0,0,0,0,0,0,0,0,0
+6,0,Lee Sin,na,na,na,0,0,0,0,0,0,0,0,0
+7,0,Yone,na,na,na,0,0,0,0,0,0,0,0,0
+8,1,Maokai,na,na,na,0,0,0,0,0,0,0,0,0
+9,1,Tahm Kench,na,na,na,0,0,0,0,0,0,0,0,0
+10,1,Vi,na,na,na,0,0,0,0,0,0,0,0,0
+11,1,Nunu,na,na,na,0,0,0,0,0,0,0,0,0
+12,1,Shyvana,Guinsoo's Rageblade,Hand of Justice,Runaan's Hurricane,0,0,0,1,1,2,1,0,1
+13,1,Chogath,na,na,na,0,0,0,0,0,0,0,0,0
+14,1,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+15,1,Sett,Ionic Spark,Jeweled Gauntlet,Sunfire Cape,0,1,1,2,1,0,1,0,0
+16,2,Elise,na,na,na,0,0,0,0,0,0,0,0,0
+17,2,Twisted Fate,na,na,na,0,0,0,0,0,0,0,0,0
+18,2,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+19,2,Vladimir,na,na,na,0,0,0,0,0,0,0,0,0
+20,2,Kalista,Guinsoo's Rageblade,Rabadon's Deathcap,Runaan's Hurricane,0,0,0,3,1,2,0,0,0
+21,2,Sivir,na,na,na,0,0,0,0,0,0,0,0,0
+22,2,Aatrox,Gargoyle Stoneplate,Guardian Angel,Sunfire Cape,1,3,1,0,1,0,0,0,0
+23,2,Zilean,na,na,na,0,0,0,0,0,0,0,0,0
+24,3,Jax,na,na,na,0,0,0,0,0,0,0,0,0
+25,3,Irelia,na,na,na,0,0,0,0,0,0,0,0,0
+26,3,Kindred,Zeke's Herald,Zeke's Herald,na,2,0,2,0,0,0,0,0,0
+27,3,Yuumi,na,na,na,0,0,0,0,0,0,0,0,0
+28,3,Kayle,Guinsoo's Rageblade,Quicksilver,Rapid Firecannon,0,0,0,1,1,3,1,0,0
+29,3,Shen,na,na,na,0,0,0,0,0,0,0,0,0
+30,3,Xayah,Thief's Gloves,na,na,0,0,0,0,0,0,2,0,0
+31,3,Lee Sin,na,na,na,0,0,0,0,0,0,0,0,0
+32,4,Jarvan IV,na,na,na,0,0,0,0,0,0,0,0,0
+33,4,Rakan,na,na,na,0,0,0,0,0,0,0,0,0
+34,4,Kennen,Guardian Angel,Ionic Spark,Morellonomicon,1,1,1,2,1,0,0,0,0
+35,4,Kindred,na,na,na,0,0,0,0,0,0,0,0,0
+36,4,Aatrox,na,na,na,0,0,0,0,0,0,0,0,0
+37,4,Xayah,Guardian Angel,Hand of Justice,Hand of Justice,1,1,0,0,0,0,2,0,2
+38,4,Azir,na,na,na,0,0,0,0,0,0,0,0,0
+39,4,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+40,5,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+41,5,Sivir,na,na,na,0,0,0,0,0,0,0,0,0
+42,5,Aatrox,na,na,na,0,0,0,0,0,0,0,0,0
+43,5,Sejuani,na,na,na,0,0,0,0,0,0,0,0,0
+44,5,Olaf,Deathblade,Guardian Angel,Hand of Justice,3,1,0,0,0,0,1,0,1
+45,5,Morgana,Morellonomicon,na,na,0,0,1,1,0,0,0,0,0
+46,5,Samira,Infinity Edge,Last Whisper,na,1,0,0,0,0,1,2,0,0
+47,5,Swain,na,na,na,0,0,0,0,0,0,0,0,0
+48,6,Tristana,na,na,na,0,0,0,0,0,0,0,0,0
+49,6,Braum,na,na,na,0,0,0,0,0,0,0,0,0
+50,6,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+51,6,Aatrox,na,na,na,0,0,0,0,0,0,0,0,0
+52,6,Sejuani,Sunfire Cape,na,na,0,1,1,0,0,0,0,0,0
+53,6,Olaf,Deathblade,Guardian Angel,Hand of Justice,3,1,0,0,0,0,1,0,1
+54,6,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+55,6,Samira,Infinity Edge,Last Whisper,na,1,0,0,0,0,1,2,0,0
+56,7,Brand,na,na,na,0,0,0,0,0,0,0,0,0
+57,7,Twisted Fate,na,na,na,0,0,0,0,0,0,0,0,0
+58,7,Annie,Gargoyle Stoneplate,Ionic Spark,Sunfire Cape,0,2,1,1,2,0,0,0,0
+59,7,Braum,na,na,na,0,0,0,0,0,0,0,0,0
+60,7,Lulu,na,na,na,0,0,0,0,0,0,0,0,0
+61,7,Veigar,na,na,na,0,0,0,0,0,0,0,0,0
+62,7,Aurelion Sol,Blue Buff,Hextech Gunblade,Jeweled Gauntlet,1,0,0,2,0,0,1,0,2
+63,7,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+64,8,Teemo,Zeke's Herald,Zeke's Herald,na,2,0,2,0,0,0,0,0,0
+65,8,Sivir,Last Whisper,Quicksilver,Rapid Firecannon,0,0,0,0,1,3,2,0,0
+66,8,Yuumi,na,na,na,0,0,0,0,0,0,0,0,0
+67,8,Aatrox,na,na,na,0,0,0,0,0,0,0,0,0
+68,8,Sejuani,Morellonomicon,na,na,0,0,1,1,0,0,0,0,0
+69,8,Azir,na,na,na,0,0,0,0,0,0,0,0,0
+70,8,Samira,na,na,na,0,0,0,0,0,0,0,0,0
+71,8,Zilean,na,na,na,0,0,0,0,0,0,0,0,0
+72,9,Lulu,na,na,na,0,0,0,0,0,0,0,0,0
+73,9,Rakan,na,na,na,0,0,0,0,0,0,0,0,0
+74,9,Nunu,Bramble Vest,Hextech Gunblade,Sunfire Cape,1,3,1,1,0,0,0,0,0
+75,9,Veigar,Blue Buff,Hextech Gunblade,Jeweled Gauntlet,1,0,0,2,0,0,1,0,2
+76,9,Aurelion Sol,na,na,na,0,0,0,0,0,0,0,0,0
+77,9,Chogath,na,na,na,0,0,0,0,0,0,0,0,0
+78,9,Sejuani,na,na,na,0,0,0,0,0,0,0,0,0
+79,9,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+80,10,Nidalee,na,na,na,0,0,0,0,0,0,0,0,0
+81,10,Jarvan IV,na,na,na,0,0,0,0,0,0,0,0,0
+82,10,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+83,10,Katarina,Guardian Angel,Hextech Gunblade,Quicksilver,2,1,0,1,1,0,1,0,0
+84,10,Tryndamere,na,na,na,0,0,0,0,0,0,0,0,0
+85,10,Azir,Chalice of Power,Chalice of Power,na,0,0,0,0,2,0,0,0,2
+86,10,Lee Sin,na,na,na,0,0,0,0,0,0,0,0,0
+87,10,Samira,Deathblade,na,na,2,0,0,0,0,0,0,0,0
+88,11,Annie,na,na,na,0,0,0,0,0,0,0,0,0
+89,11,Lulu,na,na,na,0,0,0,0,0,0,0,0,0
+90,11,Rakan,Sunfire Cape,na,na,0,1,1,0,0,0,0,0,0
+91,11,Nunu,na,na,na,0,0,0,0,0,0,0,0,0
+92,11,Veigar,na,na,na,0,0,0,0,0,0,0,0,0
+93,11,Aurelion Sol,Blue Buff,Hextech Gunblade,Jeweled Gauntlet,1,0,0,2,0,0,1,0,2
+94,11,Xayah,Guardian Angel,Hand of Justice,na,1,1,0,0,0,0,1,0,1
+95,11,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+96,12,Nasus,na,na,na,0,0,0,0,0,0,0,0,0
+97,12,Janna,na,na,na,0,0,0,0,0,0,0,0,0
+98,12,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+99,12,Irelia,na,na,na,0,0,0,0,0,0,0,0,0
+100,12,Morgana,Blue Buff,Morellonomicon,Rabadon's Deathcap,0,0,1,3,0,0,0,0,2
+101,12,Shen,na,na,na,0,0,0,0,0,0,0,0,0
+102,12,Talon,Giant Slayer,Guardian Angel,Infinity Edge,3,1,0,0,0,1,1,0,0
+103,12,Yone,na,na,na,0,0,0,0,0,0,0,0,0
+104,13,Janna,na,na,na,0,0,0,0,0,0,0,0,0
+105,13,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+106,13,Zed,na,na,na,0,0,0,0,0,0,0,0,0
+107,13,Akali,Blue Buff,Infinity Edge,Rapid Firecannon,1,0,0,0,0,2,1,0,2
+108,13,Kennen,na,na,na,0,0,0,0,0,0,0,0,0
+109,13,Shen,na,na,na,0,0,0,0,0,0,0,0,0
+110,13,Talon,Giant Slayer,Infinity Edge,Guardian Angel,3,1,0,0,0,1,1,0,0
+111,14,Janna,na,na,na,0,0,0,0,0,0,0,0,0
+112,14,Pyke,Morellonomicon,na,na,0,0,1,1,0,0,0,0,0
+113,14,Zed,Quicksilver,Rapid Firecannon,Runaan's Hurricane,0,0,0,0,2,3,1,0,0
+114,14,Akali,Zeke's Herald,Zeke's Herald,na,2,0,2,0,0,0,0,0,0
+115,14,Irelia,na,na,na,0,0,0,0,0,0,0,0,0
+116,14,Kennen,na,na,na,0,0,0,0,0,0,0,0,0
+117,14,Shen,na,na,na,0,0,0,0,0,0,0,0,0
+118,14,Yone,na,na,na,0,0,0,0,0,0,0,0,0
+119,15,Nidalee,Infinity Edge,Jeweled Gauntlet,Spear of Shojin,2,0,0,1,0,0,2,0,1
+120,15,Jarvan IV,Sunfire Cape,na,na,0,1,1,0,0,0,0,0,0
+121,15,Teemo,na,na,na,0,0,0,0,0,0,0,0,0
+122,15,Vi,na,na,na,0,0,0,0,0,0,0,0,0
+123,15,Sivir,na,na,na,0,0,0,0,0,0,0,0,0
+124,15,Tryndamere,na,na,na,0,0,0,0,0,0,0,0,0
+125,15,Azir,na,na,na,0,0,0,0,0,0,0,0,0
+126,15,Samira,Giant Slayer,Last Whisper,na,1,0,0,0,0,2,1,0,0
+127,16,Nasus,Jeweled Gauntlet,Titan's Resolve,Titan's Resolve,0,2,0,1,0,2,1,0,0
+128,16,Jax,na,na,na,0,0,0,0,0,0,0,0,0
+129,16,Vladimir,na,na,na,0,0,0,0,0,0,0,0,0
+130,16,Irelia,na,na,na,0,0,0,0,0,0,0,0,0
+131,16,Morgana,Morellonomicon,na,na,0,0,1,1,0,0,0,0,0
+132,16,Kayle,Rapid Firecannon,Guinsoo's Rageblade,na,0,0,0,1,0,3,0,0,0
+133,16,Lee Sin,na,na,na,0,0,0,0,0,0,0,0,0
+134,16,Swain,na,na,na,0,0,0,0,0,0,0,0,0
+135,17,Brand,na,na,na,0,0,0,0,0,0,0,0,0
+136,17,Braum,na,na,na,0,0,0,0,0,0,0,0,0
+137,17,Lulu,na,na,na,0,0,0,0,0,0,0,0,0
+138,17,Shyvana,Quicksilver,Rapid Firecannon,Runaan's Hurricane,0,0,0,0,2,3,1,0,0
+139,17,Aurelion Sol,Blue Buff,Hextech Gunblade,Jeweled Gauntlet,1,0,0,2,0,0,1,0,2
+140,17,Chogath,na,na,na,0,0,0,0,0,0,0,0,0
+141,17,Sejuani,na,na,na,0,0,0,0,0,0,0,0,0
+142,17,Swain,na,na,na,0,0,0,0,0,0,0,0,0
+143,18,Diana,Hextech Gunblade,Infinity Edge,Titan's Resolve,2,1,0,1,0,1,1,0,0
+144,18,Pyke,na,na,na,0,0,0,0,0,0,0,0,0
+145,18,Teemo,na,na,na,0,0,0,0,0,0,0,0,0
+146,18,Akali,Blue Buff,Infinity Edge,Rapid Firecannon,1,0,0,0,0,2,1,0,2
+147,18,Katarina,na,na,na,0,0,0,0,0,0,0,0,0
+148,18,Kindred,na,na,na,0,0,0,0,0,0,0,0,0
+149,18,Yuumi,na,na,na,0,0,0,0,0,0,0,0,0
+150,18,Talon,na,na,na,0,0,0,0,0,0,0,0,0
+151,19,Nautilus,Sunfire Cape,na,na,0,1,1,0,0,0,0,0,0
+152,19,Neeko,Blue Buff,Infinity Edge,Jeweled Gauntlet,1,0,0,1,0,0,2,0,2
+153,19,Yuumi,Chalice of Power,Chalice of Power,na,0,0,0,0,2,0,0,0,2
+154,19,Aatrox,na,na,na,0,0,0,0,0,0,0,0,0
+155,19,Chogath,na,na,na,0,0,0,0,0,0,0,0,0
+156,19,Sejuani,na,na,na,0,0,0,0,0,0,0,0,0
+157,19,Ornn,na,na,na,0,0,0,0,0,0,0,0,0
+158,19,Zilean,na,na,na,0,0,0,0,0,0,0,0,0
